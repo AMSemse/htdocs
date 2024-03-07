@@ -1,0 +1,17 @@
+SELECT * FROM asiakkaat;
+
+SELECT * FROM asiakkaat, WHERE Maa='Germany';
+
+SELECT * FROM asiakkaat, WHERE AsiakasNumero='2';
+
+SELECT * FROM asiakkaat, WHERE Kaupunki='Berlin';
+
+SELECT * FROM asiakkaat, WHERE Kaupunki='London' AND Maa='UK';
+
+SELECT * FROM asiakkaat, WHERE Kaupunki='Berlin' OR Maa='London';
+
+INSERT INTO asiakkaat, VALUES (5, Cardinal, Tom B. Erichsen, Skagen 21, Stavanger, 4006, Norway);
+
+UPDATE asiakkaat, SET AsiakasNimi = Alfred Schmidt, Kaupunki = Frankfurt, WHERE AsiakasNumero='1';
+
+DELETE FROM asiakkaat WHERE AsiakasNimi='Alfreds Futterkiste';

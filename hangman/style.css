@@ -1,0 +1,11 @@
+h1 {
+  font-size: 6em;
+}
+
+#currentStateOfPlay {
+  margin-top: 2em;
+}
+
+#canvas {
+  border: 1px solid white;
+}
